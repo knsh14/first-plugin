@@ -9,6 +9,9 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 nmap z :call firstplugin#hello()<CR>
+function! firstplugin#hello()
+  echo "Hello World!"
+endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
