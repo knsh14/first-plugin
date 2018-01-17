@@ -1,6 +1,6 @@
 scriptencoding utf-8
 
-if !exists('g:loaded_firstplugin')
+if exists('g:loaded_firstplugin')
     finish
 endif
 let g:loaded_firstplugin = 1
